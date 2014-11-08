@@ -9,6 +9,8 @@ Download Meet & Greet videos from [Mwave](http://mwave.interest.me/meetgreet/) e
 * [libcurl with PHP bindings](http://curl.haxx.se/libcurl/php/)
 * [AdobeHDS.php by K-S-V](https://github.com/K-S-V/Scripts/blob/master/AdobeHDS.php)
 
+Download `AdobeHDS.php` from the link above and put it in the same directory as `mwave-dl.php` or PHP's default include directory.
+
 # Usage
 
 ```
