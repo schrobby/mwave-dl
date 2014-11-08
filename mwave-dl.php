@@ -12,7 +12,7 @@
 		$argv = $new_argv;
 		$argc = count($argv);
 
-		requir(e"AdobeHDS.php");
+		require("AdobeHDS.php");
 	}
 
 	function generate_g_param($length = 12) {
