@@ -1,7 +1,7 @@
 mwave-dl
 ========
 
-Download Meet & Greet from [Mwave](http://mwave.interest.me/meetgreet/) easily via the command line. 
+Download Meet & Greet videos from [Mwave](http://mwave.interest.me/meetgreet/) easily via the command line. 
 
 # Requirements
 
