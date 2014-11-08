@@ -44,13 +44,13 @@
 			CURLOPT_FOLLOWLOCATION => 1
        	);
 
-       	curl_setopt_array($ch, ($options + $defaults));
-       	$result = curl_exec($ch);
+		curl_setopt_array($ch, ($options + $defaults));
+		$result = curl_exec($ch);
 
-       	if (!$result) trigger_error(curl_error($ch));
-       	curl_close($ch);
+		if (!$result) trigger_error(curl_error($ch));
+		curl_close($ch);
 
-       	return $result;
+		return $result;
 	}
 
 	if ($argc > 1) {
