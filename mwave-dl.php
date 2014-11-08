@@ -12,7 +12,7 @@
 		$argv = $new_argv;
 		$argc = count($argv);
 
-		require("AdobeHDS.php");
+		requir(e"AdobeHDS.php");
 	}
 
 	function generate_g_param($length = 12) {
@@ -41,7 +41,7 @@
 			CURLOPT_URL => $url,
 			CURLOPT_HEADER => 0,
 			CURLOPT_RETURNTRANSFER => 1,
-          	CURLOPT_FOLLOWLOCATION => 1
+			CURLOPT_FOLLOWLOCATION => 1
        	);
 
        	curl_setopt_array($ch, ($options + $defaults));
