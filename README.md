@@ -47,7 +47,7 @@ You can use script with following switches:
 Find the available download options for this particular [Meet & Great video](http://mwave.interest.me/meetgreet/view/114):
 
 ```
-$ ./mwave-dl.php http://mwave.interest.me/meetgreet/view/114
+$ php mwave-dl.php http://mwave.interest.me/meetgreet/view/114
 Title: [MEET&GREET] Strawberry Milk
 Views: 1082
 
@@ -59,5 +59,5 @@ Available quality options:
 Download the 720p version and save it as `meetgreet.flv`:
 
 ```
-$ ./mwave-dl.php http://mwave.interest.me/meetgreet/view/114 --resolution 720p --outfile "meetgreet.flv"
+$ php mwave-dl.php http://mwave.interest.me/meetgreet/view/114 --resolution 720p --outfile "meetgreet.flv"
 ```
